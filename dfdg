@@ -1,0 +1,59 @@
+[1mdiff --git a/package-lock.json b/package-lock.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c63eed2[m
+[1m--- /dev/null[m
+[1m+++ b/package-lock.json[m
+[36m@@ -0,0 +1,29 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "name": "typescript-for-javascript-developers",[m
+[32m+[m[32m  "version": "1.0.0",[m
+[32m+[m[32m  "lockfileVersion": 3,[m
+[32m+[m[32m  "requires": true,[m
+[32m+[m[32m  "packages": {[m
+[32m+[m[32m    "": {[m
+[32m+[m[32m      "name": "typescript-for-javascript-developers",[m
+[32m+[m[32m      "version": "1.0.0",[m
+[32m+[m[32m      "license": "ISC",[m
+[32m+[m[32m      "devDependencies": {[m
+[32m+[m[32m        "typescript": "^5.3.3"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/typescript": {[m
+[32m+[m[32m      "version": "5.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "bin": {[m
+[32m+[m[32m        "tsc": "bin/tsc",[m
+[32m+[m[32m        "tsserver": "bin/tsserver"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=14.17"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    }[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+[1mdiff --git a/package.json b/package.json[m
+[1mindex 0a3032c..268a0ed 100644[m
+[1m--- a/package.json[m
+[1m+++ b/package.json[m
+[36m@@ -8,5 +8,8 @@[m
+   },[m
+   "keywords": [],[m
+   "author": "",[m
+[31m-  "license": "ISC"[m
+[32m+[m[32m  "license": "ISC",[m
+[32m+[m[32m  "devDependencies": {[m
+[32m+[m[32m    "typescript": "^5.3.3"[m
+[32m+[m[32m  }[m
+ }[m
+[1mdiff --git a/src/install-typescript.ts b/src/install-typescript.ts[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f2a4034[m
+[1m--- /dev/null[m
+[1m+++ b/src/install-typescript.ts[m
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32mlet messege: string = 'Hello, TypeScript!';[m
+[32m+[m
+[32m+[m[32mconsole.log({ messege});[m
+\ No newline at end of file[m
